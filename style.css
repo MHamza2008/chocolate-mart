@@ -20,6 +20,11 @@ body {
     
 }
 
+.button_1 {
+    background-color:  #694428;
+    color :  #12110d
+}
+
 .add_gap{
     padding : 10px 0;
 }
