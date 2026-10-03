@@ -15,18 +15,26 @@ body {
     font-size: 20px;
     padding: 0; 
     }
-div.hover {
-    background-color: #f0dba8;
-    text-align: center;
-    font-size: 30px;
-    padding: 0; 
-    }
+
 
     * {
     margin: 00;
     
 }
+.index-image-text{
+    color: #2b1d12;
+    font-family:'MyCustomFont';
+    font-size: 35px;
+    padding: 20px;
+}
 
+.index-image-text:hover{
+    color:#12110d;
+    background-color:#e3cd9a;
+    font-family:'MyCustomFont';
+    font-size: 40px;
+    padding: 20px;
+}
 .button_1 {
     background-color:  #694428;
     color :  #12110d
@@ -48,6 +56,15 @@ div.hover {
     text-align: center;
     padding: 50px 0;
     font-size : 70px;
+    font-family: 'MyCustomFont';
+}
+
+.heading_1:hover {
+    background-color: #1a130e;
+    color : #f0dba8;
+    text-align: center;
+    padding: 50px 0;
+    font-size : 75px;
     font-family: 'MyCustomFont';
 }
 
@@ -78,6 +95,13 @@ div.hover {
     width : max;
 } 
 
+.Footer:hover {
+    background-color: #1a130e;
+    color : #f0dba8;
+    padding : 50px 0;
+    width : max;
+} 
+
 .fi {
     padding: 20px;
     display: flex;
@@ -95,10 +119,4 @@ div.hover {
 
 }
 
-
-image{
-    width: 10%;
-    height: 10%;
-    
-}
 
